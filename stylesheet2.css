@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(57, 73, 245);
+    color: white;
+}
+/* header */
+.intro{
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 100px;
+    border-left: 2px solid white;
+    padding-left: 15px;
+}
+/* about section */
+.about{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+.photo{
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url("Dp.jpg");
+    background-size: cover;
+}
+.me{
+    font-size: x-large;
+    height: 150px;
+    width: 300px;
+    margin-left: 40px;
+}
+.bio{
+    height: 100px;
+    width: 300px;
+    border-left: 1px solid white;
+    margin-left: 700px;
+    padding: 20px;
+}
+/* skills */
+.skills{
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.centre{
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: large;
+}
+/* projects */
+.project p{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.project h3{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.img{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pro{
+    width: 250px;
+    height: 200px;
+    border: 1px solid white;
+}
+.resume{
+    font-size: 1rem;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.anchor{
+    color: white;
+}
+.contact{
+    margin-top: 30px;
+    height: 150px;
+    background-color: rgba(16, 7, 7, 0.868);
+    color: white;
+    padding-left: 600px;
+    padding-top: 5px;
+    font-size: 1.4rem;
+}
+.contact a{
+    color:white
+}
+i{
+    color: white;
+    font-size: 1.3rem;
+}
+span{
+    margin-left: 400px;
+}
+.copyright{
+    height: 50px;
+    background-color: black;
+    text-align: center;
+
+}
